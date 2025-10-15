@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Vivekanand Kumar</h1>
+      <p class="subtitle">Aspiring SDE | 3★ @GeeksforGeeks | Knight @LeetCode | NitAp'25</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <input id="search" placeholder="Search projects..." />
+      <select id="filter">
+        <option value="all">All</option>
+        <option value="web">Web</option>
+        <option value="mobile">Mobile</option>
+        <option value="ml">ML/AI</option>
+        <option value="other">Other</option>
+      </select>
+    </section>
+
+    <section id="projects" class="grid"></section>
+
+    <footer class="footer">
+      <p>Made with ❤️ • Contact: vivekathirr02@gmail.com</p>
+    </footer>
+  </main>
+
+  <template id="card-template">
+    <article class="card">
+      <div class="card-body">
+        <h3 class="card-title"></h3>
+        <p class="card-desc"></p>
+        <div class="card-tags"></div>
+      </div>
+      <div class="card-actions">
+        <a class="btn btn-live" target="_blank" rel="noopener">Live</a>
+        <a class="btn btn-demo" target="_blank" rel="noopener">Demo</a>
+        <a class="btn btn-gh" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
