@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Fully Voice Controlled Videos Streaming Platform",
     description: "Built a fully voice-controlled video streaming platform enabling hands-free playback and navigation with voice search, page navigation (Home, History, Music, Playlists, Settings, Sign-in/Sign-up/Logout), scrolling, playback control (play/pause, volume, speed, seek ±10s, fullscreen, Picture-in-Picture), and voice-based commenting, liking, and subscribing through robust voice recognition and intent parsing.",
-    tags: ["MERN", "Socket.IO"],
+    tags: ["MERN", "Real-Time Speech Processing"],
     live: "https://voice-controll-streaming-platform.onrender.com/",
     demo: "https://youtu.be/n8WbZHy4rmg?si=DGHjB9JFn77nrCIG",
     github: "https://github.com/vivekanand04/voice-controll-streaming-platform",
@@ -13,12 +13,12 @@ const projects = [
   
   },
   {
-    title: "Family and Friends Secure Chat System ",
-    description: "Architected a secure real-time chat app for families and friends supporting one-on-one and group messaging for 60 active members and handling over 100 messages daily, with multi-file sharing and downloads plus a flexible message-deletion feature that lets users remove messages up to 280 days later—capability uncommon on mainstream platforms.",
-    tags: ["Socket.IO","MERN"],
-    live: "https://chat-app-frontend-tair.onrender.com/",
-    demo: "https://youtu.be/NLLexZ5vN5Y?si=eCPhI6VnRdkPRQLX",
-    github: "https://github.com/vivekanand04/Secure-Real-Time-Chat-App-for-Families-and-Friends",
+    title: "AI-Powered Healthcare Discovery Platform ",
+    description: "Developed an AI-driven healthcare platform that lets patients and researchers discover personalized trials, publications, and experts via natural language input, featuring AI-based condition recognition, auto research summaries, smart meeting logic, real-time chat, and secure collaboration.",
+    tags: [ "PostgrSQL", "Express", "React", "NLP"],
+    live: "https://curalink-frontend-h970.onrender.com/",
+    demo: "https://curalink-frontend-h970.onrender.com/",
+    github: "https://github.com/vivekanand04/AI-Powered-Healthcare-Discovery-Platform-",
     category: "web",
   
   },
